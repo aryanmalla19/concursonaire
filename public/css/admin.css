@@ -1,0 +1,146 @@
+
+.admin-form{
+    height:90vh;
+}
+ 
+.admin-form form{
+    color: whitesmoke;
+    width: 30%;
+    border-radius: 5px;
+    padding: 30px 25px;
+    background-color: #083D77;
+}
+
+.sidebar{
+    width: 20%;
+    margin: 10px 10px;
+    height: 90vh;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #2D2D2A;
+}
+
+.sidebarr{
+    display: flex;
+    flex-direction: column;
+    /* width: 20%; */
+    margin: 10px 10px;
+    height: 90vh;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #2D2D2A;
+}
+
+.sidebar h4{
+    border-bottom: 1px solid white ;
+    width: 100%;
+}
+.sidebar > .active{
+background-color: #F42272;
+}
+.sidebarr > .active{
+    background-color: #F42272;
+    }
+a:hover{
+    background-color: #F42272;
+    }
+.a{
+    width: 95%;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-bottom: 2px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}
+.non-sidebar{
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dash-box{
+    /* color: white; */
+    margin-bottom: 40px;
+    background-color: #F6D0B1;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: fit-content;
+}
+.dash-box p{
+    font-weight: 400;
+}
+.i{
+    position: relative;
+    top: -25px;
+    background-color: #F42272;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 10px 20px;
+}
+.i > i {
+    font-size: 25px;
+    color: white;
+}
+.dash-box span{
+    color: #083D77;
+}
+.form-add{
+    width: 95%;
+}
+.form-edit{
+    width: 95%;
+}
+
+@media (max-width: 1040px) {
+    .admin-form form{
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-flex{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .btn-flex > a{
+        margin-bottom: 5px;
+    }
+    table *, .btn{
+        font-size: 11px;
+    }
+    .dash-box {
+        width: 160px;
+        min-height: 100px;
+    }
+    .dash-box *{
+        font-size: 10px;
+    }
+    .i{
+        top: 0px !important;
+        left: -10px;
+        padding: 5px 10px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .sidebar {
+        display: none;
+    }
+    .non-sidebar {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .admin-form form{
+        width: 90%;
+    }
+}

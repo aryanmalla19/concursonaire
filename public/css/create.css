@@ -1,0 +1,36 @@
+.answer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.answer .form-group{
+    flex:69%;
+    justify-self: flex-end;
+}
+
+.answer .form-check{
+    flex:30%;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.question, .answer {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+}
+
+.question {
+    background-color: #f8f9fa;
+}
+
+.answer {
+    background-color: #e9ecef;
+}
+
+.btn-container {
+    margin-top: 1rem;
+}

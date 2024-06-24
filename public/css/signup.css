@@ -1,0 +1,88 @@
+#main{
+    display: flex;
+    justify-content: space-between;
+    }
+#main .image-login{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    flex: 53%;
+    background-color: #819595 !important;
+    display: flex;
+    flex-direction: column;
+}
+#main .login-box{
+    flex: 35%;
+    padding: 10px 40px;
+    padding-top: 80px;
+    background-color: #F7F7FF !important;
+}
+.logo{
+    width: 70px;
+}
+.img{
+    width:47%;
+    margin: 0 auto;
+}
+.btn{
+    width: 100%;
+
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+.form-control{
+    border-radius: 0px !important;
+    outline: none !important;
+    border: 0;
+    background-color: #F7F7FF !important;
+    border-bottom: 1px solid #819595;
+}
+h2{
+    color: #819595;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+.a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+    #main .image-login{
+        flex: 43%;
+    }
+    #main .login-box{
+        flex: 57%;
+    }
+    #space{
+        font-size: 20px;
+    }
+    .logo{
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main .image-login{
+        flex: 45%;
+    }
+    #main .login-box{
+        flex: 55%;
+    }
+}
+@media screen and (max-width: 500px) {
+    #main .image-login{
+        flex: 0%;
+        display: none;
+    }
+    #main .login-box{
+        flex: 100%;
+    }
+    .two{
+        display: block;
+        /* justify-content: space-between; */
+    }
+}

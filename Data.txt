@@ -1,0 +1,18 @@
+
+User Login (Student): 
+    url=http://localhost/Concursonaire/public/auth/login
+
+    username=saps@gmail.com
+    password=123
+
+User Login (Teacher):
+    url=http://localhost/Concursonaire/public/auth/login
+
+    username=aryanmalla19@gmail.com
+    password=123
+
+Admin Login:
+    url=http://localhost/Concursonaire/public/admin/login
+
+    username=admin
+    password=admin

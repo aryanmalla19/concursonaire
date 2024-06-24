@@ -1,0 +1,76 @@
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: transparent;
+}
+#main .image-login{
+    padding-top: 70px;
+    min-height: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 53%;
+    background-color: #F2D398 !important;
+}
+.image-login .img{
+    width: 40%;
+    margin: 0 auto;
+}
+.logo{
+    width: 80px;
+}
+#main .login-box{
+    padding-top: 120px !important;
+    width: 100%;
+    min-height: inherit;
+    flex: 38%;
+    background-color: #F0F0F0 !important;
+    padding: 10px 40px;
+    padding-top: 50px;
+}
+.a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn{
+    width: 100%;
+
+}
+.forget{
+    color: blue !important;
+    text-decoration: underline;
+    border: 0;
+    outline: 0;
+    margin: 5px 0px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    #main .image-login{
+        flex: 43%;
+    }
+    #main .login-box{
+        flex: 57%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main .image-login{
+        flex: 45%;
+    }
+    #main .login-box{
+        flex: 55%;
+    }
+}
+@media screen and (max-width: 500px) {
+    #main .image-login{
+        flex: 0%;
+        display: none;
+    }
+    #main .login-box{
+        flex: 100%;
+    }
+}

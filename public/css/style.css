@@ -1,0 +1,103 @@
+.font-main{
+    font-family: 'Merriweather', serif !important;
+}
+.form-control{
+    border-radius: 4px;
+    outline: none;
+}
+.form-label{
+    font-weight: 400;
+    color: gray;
+}
+.green{
+    color: #c2881c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.signupBtn{
+    background-color:#e9b554 !important;
+
+}
+.head-top li {
+    transition: border-bottom 0.4s ease-in-out;
+}
+
+.head-top li:hover {
+    animation-name: example; /* Animation name */
+    animation-duration: 2s; 
+}
+
+@keyframes example {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.logout{
+    border-radius: 50px;
+}
+.logout:hover{
+border-bottom: 0px!important;
+color: white !important;
+background-color: red;
+
+}
+body{
+    background-color:#f8f9fa !important;
+}
+#space{
+    padding: 0px 50px;
+}
+a{
+    color: black !important;
+}
+
+.fa-gear{
+    font-size: 30px;
+    margin-right: 10px;
+    color:#c2881c;
+    cursor: pointer;
+}
+.dropdown-toggle{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.dropdown-menu{
+    left:-130% !important;
+}
+.btn-red{
+    background-color: rgb(179, 9, 9);
+    padding: 5px 0px;
+    margin: 0;
+}
+.btn-red:hover a{
+    background-color: rgb(179, 9, 9);
+}
+.second{
+    width:25%;
+}
+.line button{
+    /* background-color: #d6e2d9 ; */
+    color: #345995 ;
+    border: none !important;
+    outline: none !important;
+}
+.line button:hover p{
+text-decoration: underline;
+}
+.active-line-btn{
+    background-color: #345995 !important;
+    color: white !important;
+}
+.fa-magnifying-glass{
+    font-size:25px;
+}
+
+@media (max-width: 480px) {
+    table *{
+        font-size: 10px;
+    }
+}

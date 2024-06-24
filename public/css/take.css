@@ -1,0 +1,136 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif !important;
+    margin-top: 20px;
+    color: #007bff;
+    text-align: center;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.custom-btn:hover {
+    background: #0056b3;
+}
+
+.timer {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.question-counter {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.question {
+    display: none;
+}
+
+.question.active {
+    display: block;
+}
+
+.option label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.option input[type="radio"] {
+    display: none;
+}
+
+.option input[type="radio"]:checked + label {
+    background: #007bff;
+    color: #fff;
+}
+
+.option label:hover {
+    background: #e9f4ff;
+}
+
+.comments-section {
+    margin-top: 30px;
+}
+
+.comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.comment h5 {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: #007bff;
+}
+
+.comment p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.comment-icon {
+    font-size: 20px;
+    padding: 1%;
+    background-color: #007bff;
+    padding: 10px;
+    color: white !important;
+    border-radius: 100%;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navigation button {
+    flex: 1;
+    margin: 0 5px;
+}
